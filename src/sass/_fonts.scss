@@ -1,41 +1,46 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url('Gilroy-Light.woff2') format('woff2'),
-        url('Gilroy-Light.woff') format('woff');
+    src: url('./../fonts/Gilroy-Light.woff2') format('woff2'),
+        url('./../fonts/Gilroy-Light.woff') format('woff');
 }
 
 @font-face {
     font-family: 'MinionPro';
-    src: url('MinionPro-Regular.woff2') format('woff2'),
-        url('MinionPro-Regular.woff') format('woff');
+    src: url('./../fonts/MinionPro-Regular.woff2') format('woff2'),
+        url('./../fonts/MinionPro-Regular.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Acrom';
-    src: url('Acrom-Light.woff2') format('woff2'),
-        url('Acrom-Light.woff') format('woff');
+    src: url('./../fonts/Acrom-Light.woff2') format('woff2'),
+        url('./../fonts/Acrom-Light.woff') format('woff');
+    font-weight: 200;
 }
 
 @font-face {
     font-family: 'Acrom';
-    src: url('Acrom-Thin.woff2') format('woff2'),
-        url('Acrom-Thin.woff') format('woff');
+    src: url('./../fonts/Acrom-Thin.woff2') format('woff2'),
+        url('./../fonts/Acrom-Thin.woff') format('woff');
+    font-weight: 300;
 }
 
 @font-face {
     font-family: 'Acrom';
-    src: url('Acrom-Regular.woff2') format('woff2'),
-        url('Acrom-Regular.woff') format('woff');
+    src: url('./../fonts/Acrom-Regular.woff2') format('woff2'),
+        url('./../fonts/Acrom-Regular.woff') format('woff');
+    font-weight: 400;
 }
 
 @font-face {
     font-family: 'Acrom';
-    src: url('Acrom-Bold.woff2') format('woff2'),
-        url('Acrom-Bold.woff') format('woff');
+    src: url('./../fonts/Acrom-Bold.woff2') format('woff2'),
+        url('./../fonts/Acrom-Bold.woff') format('woff');
+    font-weight: 700;
 }
 
 @font-face {
     font-family: 'Acrom';
-    src: url('Acrom-ExtraBold.woff2') format('woff2'),
-        url('Acrom-ExtraBold.woff') format('woff');
+    src: url('./../fonts/Acrom-ExtraBold.woff2') format('woff2'),
+        url('./../fonts/Acrom-ExtraBold.woff') format('woff');
+    font-weight: 900;
 }
