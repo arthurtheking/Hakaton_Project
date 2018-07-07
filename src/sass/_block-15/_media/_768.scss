@@ -1,9 +1,10 @@
 .block-15 {
     @media screen and (min-width: 768px) {
-        width: 728px;
         display: flex;
-        padding-left: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
         margin: 0 auto;
+        padding-top: 68px;
 
         &__left {
             width: 50%;

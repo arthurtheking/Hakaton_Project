@@ -1,27 +1,28 @@
 .block-15 {
     @media screen and (min-width: 960px) {
-        width: 900px;
 
         &__title {
-            font-size: 33px;
-            line-height: 33px;
-            width: 370px;
+            font-size: 34px;
+            line-height: 39px;
+            width: 400px;
+            margin: -11px -14px;
+            padding-top: 50px;
         }
         .item {
             &__body {
                 width: 200px;
             }
             &__heading {
-                padding-top: 20px;
+                padding-top: 5px;
                 font-size: 11px;
             }
             .counter {
-                top: 39px;
+                top: 24px;
             }
         }
         &__button {
             bottom: 35px;
-            left: 214px;
+            left: calc(50% - 20px);
         }
         &__caption {
             bottom: 68px;
