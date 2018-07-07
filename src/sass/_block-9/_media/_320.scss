@@ -1,16 +1,115 @@
-.section{
-&__heading-accent{
-   
-color: $mainLightColor;
-font-family: "Acrom - Extra Bold";
-font-size: 12px;
-font-weight: 400;
-line-height: 16px;
-text-transform: uppercase;}
+.block-9 {
+    padding: 10px 46px 24px;
 
-&_heading{
-color:$mainDarkColor;
-font-weight: 700;
-font-family: Acrom;
-}
+    &__inner{
+        margin: 0 auto;
+    }
+   
+    &__title{
+        color: $mainLightColor;
+        background-color: $mainDarkColor;
+        font-family: $acrom;
+        width: 125px;
+        margin: 0 auto;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+        text-transform: uppercase;
+    }
+
+    &__accent {
+        display: block;
+        margin: 0 auto;
+        color: $mainDarkColor;
+        font-weight: 700;
+        background-color: #ffffff;
+        font-family: $acrom;
+    }
+
+    &__do-yourself{ 
+        width: 172px;
+        position: relative;
+        padding-left: 30px;
+        color:$mainDarkColor;
+        font-family: $acrom;
+        font-size: 9px;
+        font-weight: 500;
+        letter-spacing: -0.86px;
+
+        &::before {
+            position: absolute;
+            left: 0;
+            display: block;
+            content: " ";
+            width: 16px;
+            height: 5px;
+            background-color: $mainDarkColor;
+        }
+    }
+
+    .list {
+        margin: 0 auto 30px;
+        width: 196px;
+        list-style: none;
+    }
+
+    .item {
+    
+        &__heading {
+            margin: 0 auto 10px;
+            color:$mainDarkColor;
+            font-family: $acrom;
+            font-size: 9px;
+            font-weight: 400;
+            line-height: 14.18px;
+            text-transform: uppercase;
+        }
+
+        &__body{
+            width: 154px;
+            margin: 0 auto;
+            color: $darkAccentColor;
+            font-family: $acrom;
+            font-size: 9px;
+            font-weight: 400;
+            line-height: 13px;
+        }
+    }
+
+    .purpose {
+        position: relative;
+        width: 219px;
+        color: $brandColor;
+        font-family: $acrom;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 13px;
+        padding-left: 10px;
+
+        &::before {
+            position: absolute;
+            left: 0;
+            bottom: 10px;
+            content: "/";
+            display: block;
+            color: $mainDarkColor;
+            width: 13px;
+            height: 20px;
+        }
+    }
+
+    .number-wrap {
+        width: 25px;
+        height: 16px;
+        overflow: hidden;
+    }
+
+    .number {
+        color: $mainDarkColor;
+        font-family: $acrom;
+        font-size: 16px;
+        font-weight: 400;
+        transform: translateX(-4px);
+        margin: 0 auto;
+    }
 }
