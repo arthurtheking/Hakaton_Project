@@ -1,0 +1,51 @@
+.block-15 {
+    @media screen and (min-width: 480px) {
+        min-width: 480px;
+
+        &__title {
+            font-size: 18px;
+            width: 202px;
+        }
+        .list {
+            margin: 35px auto;
+        }
+        .item {
+            font-size: 13px;
+
+            &__heading {
+                width: 230px;
+            }
+            
+            &__body {
+                width: 220px;
+                word-spacing: 2px;
+            }
+            .counter {
+                width: 30px;
+                height: 30px;
+                left: -24px;
+                font-size: 16px;
+                &::after {
+                    width: 10px;
+                    height: 10px;
+                    top: 20px;
+                    left: 8px;
+                }
+                &__number {
+                    margin-left: -4px;
+                }
+            }
+            
+        }
+
+    &__caption {
+        font-size: 13px;
+    }
+
+    &__button {
+        width: 200px;
+        height: 40px;
+    }
+    
+    }
+}
