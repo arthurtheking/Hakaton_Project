@@ -1,6 +1,56 @@
 .block-15 {
     @media screen and (min-width: 768px) {
-        min-width: 768px;
-    
+        width: 728px;
+        display: flex;
+        padding-left: 40px;
+        margin: 0 auto;
+
+        &__left {
+            width: 50%;
+            position: relative;
+        }
+        &__title {
+            font-size: 26px;
+            width: 305px;
+        }
+        .list {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+        }
+        .item {
+            display: flex;
+            flex-flow: row wrap;
+            margin: 11px 0;
+            width: 129px;
+            flex-basis: 50%;
+
+            &__heading {
+                width: 170px;
+            }
+            .counter {
+                top: 19px;
+            }
+        }
+        &__button {
+            position: absolute;
+            bottom: 50px;
+            left: 177px;
+        }
+        &__caption {
+            position: absolute;
+            bottom: 89px;
+            left: 167px;
+        }
+        &__right {
+            width: 40%;
+            display: flex;
+            padding-left: 85px;
+
+            &-img {
+                width: 256px;
+                height: 306px;
+            }
+        }
     }
 }

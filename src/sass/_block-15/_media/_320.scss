@@ -64,9 +64,9 @@
     &__caption {
         font-family: $acrom;
         font-size: 9px;
-        text-align: center;
         margin: 20px auto;
         color: #ff6b08;
+        text-align: center;
         &::before{
             content: "/";
             display: inline-block;
