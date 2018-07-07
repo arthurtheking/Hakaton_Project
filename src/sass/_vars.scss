@@ -1,0 +1,36 @@
+// Color Palette
+
+$brandColor: #ff6b08;
+$mainDarkColor: #000000;
+$mainLightColor: #ffffff;
+$lightAccentColor: #16ebfe;
+$darkAccentColor: #3f4144;
+$lightShadeColor: #a2a2a2;
+$darkShadeColor: #181c27;
+
+// Fonts
+$acrom: Acrom, Arial, sans-serif;
+$gilroy: Gillroy, Helvetica, sans-serif;
+$minion: MinionPro, serif;
+
+
+// Breakpoints
+
+$phone: '(min-width: 480px)';
+$tabletPortrait: '(min-width: 768px)';
+$tabletLandscape: '(min-width: 960px)';
+$desktop: '(min-width: 1200px)';
+$desktopWide: '(min-width: 1440px)';
+
+// -----------------------------------------grid settings
+$grid-gutter-width: 30px !default;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
+
+
+
+
+
+
+
+
