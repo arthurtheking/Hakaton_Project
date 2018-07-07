@@ -4,3 +4,4 @@
 package-lock.json
 src/libs/.DS_Store
 *.DS_Store
+.build
