@@ -1,0 +1,12 @@
+.block-15 {
+    min-width: 320px;
+    &-left{
+        width: 50%;
+        &__title {
+            font-family: 'Acrom-ExtraBold';
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+    }
+    
+}
