@@ -1,0 +1,94 @@
+.block-15 {
+    padding-top: 15px;
+    width: 100%;
+
+    &__title {
+        width: 140px;
+        font-family: 'Acrom';
+        font-weight: 900;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin: 0 auto;
+    }
+    .list {
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+
+    .item {
+        width: 180px;
+        margin: 10px auto;
+        font-size: 9px;
+        position: relative;
+
+        &__heading {
+            width: 150px;
+            margin-top: 20px;
+            font-family: 'Acrom';
+            color: #000;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        
+        &__body {
+            margin-top: 10px;
+            font-family: 'Acrom';
+            color: #3f4144;
+        }
+        .counter {
+            font-family: 'Acrom';
+            font-weight: 900;
+            width: 12px;
+            margin-left: -5px;
+            overflow: hidden;
+            height: 20px;
+            position: absolute;
+            top: 0px;
+            left: -10px;
+            &::after {
+                content: "";
+                content: "";
+                display: block;
+                width: 6px;
+                height: 6px;
+                background-color: #16ebfe;
+                position: absolute;
+                top: 10px;
+                left: 4px;
+            }
+            &__number {
+                margin-left: -3px;
+            }
+        }
+    }
+
+    &__caption {
+        font-size: 9px;
+        text-align: center;
+        margin: 20px auto;
+        color: #ff6b08;
+        &::before{
+            content: "/";
+            display: inline-block;
+            color: green;
+        }
+    }
+    &__wrap {
+        text-align: center;
+        margin-top: 15px;
+
+        &__button {
+            width: 142px;
+            height: 30px;
+            background-color: #ff6b08;
+            color: #fff;
+            font-size: 8px;
+            border: none;
+            text-transform: uppercase;
+            box-shadow: 0 2px 3px rgba(100, 100, 100, 0.5);
+        }
+    }
+
+
+    
+}
