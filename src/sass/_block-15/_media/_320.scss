@@ -67,7 +67,7 @@
         margin: 20px auto;
         color: #ff6b08;
         text-align: center;
-        &::before{
+        &::before {
             content: "/";
             display: inline-block;
             color: #000;
@@ -84,6 +84,7 @@
         border: none;
         text-transform: uppercase;
         box-shadow: 0 2px 3px rgba(100, 100, 100, 0.5);
+        outline: none;
 
         &-wrapper {
             text-align: center;

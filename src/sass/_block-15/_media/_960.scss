@@ -1,0 +1,44 @@
+.block-15 {
+    @media screen and (min-width: 960px) {
+        width: 900px;
+        .item {
+            &__body {
+                width: 200px;
+            }
+            &__heading {
+                padding-top: 20px;
+            }
+            .counter {
+                top: 39px;
+            }
+        }
+        &__button {
+            bottom: 50px;
+            left: 214px;
+        }
+        &__caption {
+            bottom: 89px;
+            left: 194px;
+            &::before {
+                content: "/";
+                display: inline-block;
+                color: #000;
+                font-size: 25px;
+                font-weight: 900;
+            }
+        }
+
+
+        &__right {
+            width: 40%;
+            display: flex;
+            padding-left: 85px;
+
+            &-img {
+                width: 320px;
+                height: 380px;
+            }
+        }
+        
+    }
+}
