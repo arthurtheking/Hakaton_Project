@@ -9,8 +9,18 @@ $lightShadeColor: #a2a2a2;
 $darkShadeColor: #181c27;
 
 // Fonts
+$acrom: Acrom, Arial, sans-serif;
+$gilroy: Gillroy, Helvetica, sans-serif;
+$minion: MinionPro, serif;
 
 
+// Breakpoints
+
+$phone: '(min-width: 480px)';
+$tabletPortrait: '(min-width: 768px)';
+$tabletLandscape: '(min-width: 960px)';
+$desktop: '(min-width: 1200px)';
+$desktopWide: '(min-width: 1440px)';
 
 // -----------------------------------------grid settings
 $grid-gutter-width: 30px !default;
