@@ -1,0 +1,33 @@
+.block-15 {
+    @media screen and (min-width: 1440px) {
+        width: 1380px;
+
+        &__title {
+            font-size: 36px;
+            width: 405px;
+        }
+        &__right {
+            &-img {
+                width: 330px;
+                height: 380px;
+            }
+        }
+        .item {
+            &__heading {
+                font-size: 12px;
+            }
+            &__body {
+                font-size: 13px;
+            }
+        }
+        &__button {
+            bottom: 45px;
+            left: 384px;
+        }
+        
+        &__caption {
+            bottom: 90px;
+            left: 370px;
+        }
+    }
+}
