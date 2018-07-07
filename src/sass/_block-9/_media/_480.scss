@@ -1,5 +1,30 @@
 .block-9 {
     @media #{$phone} {
+        &__do-yourself { 
+            font-size: 14px;
+            width: 257px;
+            line-height: 20px;
+        }
+
+        .item {
+
+            &__heading{
+                font-size: 13px;
+                font-weight: 900px;
+                line-height: 20px;
+            }
+
+            &__body{
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+        }
+        .purpose  {
+            font-size: 15px;
+            line-height: 20px;
+         }
 
     }
+
 }

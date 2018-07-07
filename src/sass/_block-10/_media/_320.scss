@@ -1,3 +1,95 @@
 .block-10 {
+
+    &__image-container{
+        width: 297px;
+        height: 121px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 14px;
+    }
+    &__image{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
     
+    &__wrap {
+        text-align: center;
+        margin-top: 15px;}
+
+        &__button {
+            width: 142px;
+            height: 30px;
+            background-color: #ff6b08;
+            color: #fff;
+            font-size: 8px;
+            border: none;
+            text-transform: uppercase;
+            box-shadow: 0 2px 3px rgba(100, 100, 100, 0.5);
+        }
+
+        .wrap-content{
+            padding: 0 64px 30px;
+        }
+        .get-know{
+        color: mainDarkColor;
+        font-family: $acrom;
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 11px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .list{
+        list-style: none;
+        margin-bottom: 32px;
+    }
+    .item{
+        margin-bottom: 10px;
+        counter-reset: number;
+
+        &::before{
+            counter-increment: number;
+            content: "00 " counter(section) " ";
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &__heading{
+            color: mainDarkColor;
+            font-family: $acrom;
+            font-size: 9px;
+            font-weight: 700;
+            line-height: 14px;
+            margin-bottom: 10px;
+
+            
+        }
+
+        &__body{
+            color: $darkAccentColor;
+            font-family: $acrom;
+            font-size: 9px;
+            font-weight: 400;
+            line-height: 14px;
+        }
+
+
+    }
+
+    .purpose{
+        color: $brandColor;
+        font-family: $acrom;
+        font-size: 9px;
+        font-weight: 500;
+        line-height: 11px;
+    }
+    
+
+
+
+
 }

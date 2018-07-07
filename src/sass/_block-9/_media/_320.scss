@@ -2,7 +2,40 @@
     padding: 10px 46px 24px;
 
     &__inner{
+        position: relative;
         margin: 0 auto;
+        
+            &::before{
+                position: absolute;
+                left: -10px;
+                top: 25px;
+                z-index: -1;
+                content: "4";
+                width: 77px;
+                height: 97px;
+                color: #f7f7f7;
+                font-family: $acrom;
+                font-size: 139px;
+                font-weight: 400;
+                line-height: 55.46px;
+                text-transform: uppercase;
+            }
+            &::after{
+                position: absolute;
+                top: -20px;
+                left: 124px;
+                z-index: -1;
+                content: "stap";
+                width: 27px;
+                height: 96px;
+                color: #f7f7f7;
+                font-family: $acrom;
+                font-size: 37px;
+                font-weight: 400;
+                line-height: 200px;
+                text-transform: uppercase;
+                transform: rotate(90deg);
+            }
     }
    
     &__title{
@@ -10,7 +43,7 @@
         background-color: $mainDarkColor;
         font-family: $acrom;
         width: 125px;
-        margin: 0 auto;
+        margin: 0 auto 10px;
         font-size: 12px;
         font-weight: 400;
         line-height: 16px;
@@ -30,14 +63,17 @@
         width: 172px;
         position: relative;
         padding-left: 30px;
+        margin-bottom: 40px;
         color:$mainDarkColor;
         font-family: $acrom;
         font-size: 9px;
         font-weight: 500;
         letter-spacing: -0.86px;
+        line-height: 14px;
 
         &::before {
             position: absolute;
+            top: 3px;
             left: 0;
             display: block;
             content: " ";
@@ -45,7 +81,20 @@
             height: 5px;
             background-color: $mainDarkColor;
         }
+        
     }
+
+    .container {
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        left: -90px;
+        top: 4233px;
+        width: 500px;
+        height: 380px;
+        z-index: 288;
+      }
+      
+
 
     .list {
         margin: 0 auto 30px;
@@ -54,8 +103,9 @@
 
     .item {
     position: relative;
+    padding-left: 14px;
+    margin-bottom: 22px;
         &__heading {
-            margin: 0 auto 10px;
             color:$mainDarkColor;
             font-family: $acrom;
             font-size: 9px;
@@ -70,12 +120,12 @@
             font-size: 9px;
             font-weight: 400;
             line-height: 13px;
+            margin-top: 10px;
         }
     }
 
     .purpose {
         position: relative;
-        width: 219px;
         color: $brandColor;
         font-family: $acrom;
         font-size: 10px;
@@ -96,7 +146,7 @@
     }
 
     .number {
-        margin-left: -3px;
+        margin-left: -5px;
     }
 
     .number-wrap {
@@ -108,10 +158,11 @@
         margin-left: -5px;
         overflow: hidden;
         height: 20px;
-        width: 14px;
+        width: 20px;
         position: absolute;
         top: 0px;
         left: -10px;
+      
 
             &::after{
                 content: "";
@@ -122,6 +173,7 @@
                 position: absolute;
                 top: 15px;
                 left:5px;
+                
             }
     }
 }
