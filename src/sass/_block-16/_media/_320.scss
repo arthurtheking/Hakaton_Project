@@ -48,10 +48,12 @@
         .block-16-middle-part-info {
             font-family: $acrom;
             font-size: 9px;
-            margin: 0 50px;
-    
+            padding: 0 50px;
+
             &__item {
                 margin: 15px auto;
+                width: 203px;
+                line-height: 14px;
             }
             &__itemblack {
                 color: #fff;
@@ -59,7 +61,168 @@
                 text-transform: uppercase;
                 width: 110px;
                 line-height: 15px;
+                position: relative;
+                &::before {
+                    content: "";
+                    display: block;
+                    width: 110px;
+                    border-bottom: 2px solid #fff;
+                    position: absolute;
+                    top: 14px;
+                    left: 0;
+                }
+            }
+            &__itemblack2 {
+                color: #fff;
+                background-color: #000;
+                text-transform: uppercase;
+                width: 152px;
+                line-height: 17px;
+                position: relative;
+                &::before {
+                    content: "";
+                    display: block;
+                    width: 152px;
+                    border-bottom: 2px solid #fff;
+                    position: absolute;
+                    top: 16px;
+                    left: 0;
+                }
+            }
+            &__img {
+                display: none;
             }
         }
+    }
+    .block-16-lower-part {
+
+        &__title {
+            font-size: 9px;
+            font-family: $acrom;
+            font-weight: 900;
+            text-transform: uppercase;
+            width: 255px;
+            text-align: justify;
+            margin: 30px auto 25px;
+        }
+    }
+    .list {
+        width: 165px;
+        margin: 0 auto;
+        position: relative;
+
+        .item   {
+            padding: 10px 0;
+
+            &__heading {
+                font-family: $acrom;
+                font-size: 9px;
+                font-weight: 700;
+                margin: auto;
+            }
+            &__caption {
+                font-family: $acrom;
+                font-size: 9px;
+                margin: 15px auto;
+            }
+        }
+        .counter {
+            background-color: #ff6b08;
+            color: #fff;
+            transform: rotate(-90deg);
+            width: 30px;
+            font-size: 9px;
+            height: 10px;
+            text-align: center;
+            position: absolute;
+            top: 31px;
+            left: -29px;
+        }
+        .counter2 {
+            background-color: #ff6b08;
+            color: #fff;
+            transform: rotate(-90deg);
+            width: 30px;
+            font-size: 9px;
+            height: 10px;
+            text-align: center;
+            position: absolute;
+            left: -29px;
+            top: 106px;
+        }
+        .counter3 {
+            background-color: #ff6b08;
+            color: #fff;
+            transform: rotate(-90deg);
+            width: 30px;
+            font-size: 9px;
+            height: 10px;
+            text-align: center;
+            position: absolute;
+            left: -29px;
+            top: 212px;
+        }
+        .counter4 {
+            background-color: #ff6b08;
+            color: #fff;
+            transform: rotate(-90deg);
+            width: 30px;
+            font-size: 9px;
+            height: 10px;
+            text-align: center;
+            position: absolute;
+            left: -29px;
+            top: 306px;
+        }
+        .counter5 {
+            background-color: #ff6b08;
+            color: #fff;
+            transform: rotate(-90deg);
+            width: 30px;
+            font-size: 9px;
+            height: 10px;
+            text-align: center;
+            position: absolute;
+            left: -29px;
+            top: 392px;
+        }
+    }
+    .block-16-lower-part-price {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: flex-end;
+        font-family: Acrom,Arial,sans-serif;
+            .price__blue {
+                width: 96px;
+                background-color: #16ebfe;
+                font-size: 11px;
+                color: #000;
+                font-weight: 600;
+                line-height: 20px;
+                position: relative;
+                &::before {
+                    content: "";
+                    display: block;
+                    width: 96px;
+                    border-bottom: 4px solid #fff;
+                    position: absolute;
+                    top: 18px;
+                    left: 0;
+
+                }
+            }
+            .price__true {
+                font-size: 24px;
+                font-weight: 700;
+                &::before {
+                    content: "1 300 грн";
+                    display: block;
+                    font-size: 11px;
+                    font-weight: 400;
+                    text-decoration: line-through;
+                    margin-bottom: 5px;
+                }
+            }
     }
 }
