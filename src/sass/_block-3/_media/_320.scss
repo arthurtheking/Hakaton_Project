@@ -35,13 +35,44 @@
     .item {
         padding-left: 41px;
         &__heading {
+            position: relative;
             font-family: $acrom;
             font-size: 15px;
             font-weight: 400;
             line-height: 19.14px;
-        } //  &__subheading {
-        //  }
-        //  &__body {
-        //  }
+            &::before {
+                content: '';
+                display: block;
+                width: 8px;
+                height: 7px;
+                background-color: $brandColor;
+                position: absolute;
+                left: -18px;
+                top: 8px;
+            }
+        }
+        &__place {
+            font-family: $acrom;
+            font-size: 9px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        &__subheading {
+            display: inline-block;
+            font-family: Acrom;
+            font-size: 9px;
+            font-weight: 500;
+            line-height: 13px;
+            background-color: $lightAccentColor;
+            margin-bottom: 14px;
+        }
+        &__body {
+            font-family: $acrom;
+            font-size: 9px;
+            font-weight: 400;
+            line-height: 13px;
+            padding-right: 9px;
+            margin-bottom: 17px;
+        }
     }
 }

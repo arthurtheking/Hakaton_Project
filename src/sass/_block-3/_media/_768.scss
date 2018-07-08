@@ -1,0 +1,94 @@
+.block-3 {
+    @media #{$tabletPortrait} {
+        &__inner {
+            display: flex;
+        }
+        &__wrap-title {
+            width: 282px;
+        }
+        &__title {
+            font-size: 27px;
+            line-height: 33.65px;
+            padding-top: 40px;
+            padding-left: 63px;
+            padding-right: 0;
+            margin-bottom: 18px;
+        }
+        &__subtitle {
+            font-size: 9px;
+            line-height: 14px;
+            padding-left: 110px;
+            padding-right: 50px;
+            &::before {
+                content: '';
+                display: block;
+                border-top: 4px solid $mainDarkColor;
+                width: 28px;
+                top: 5px;
+                left: 64px;
+            }
+        }
+        .item {
+            flex-basis: 50%;
+            padding-left: 0;
+            margin-bottom: 0;
+            &:nth-child(1) {
+                order: 1;
+            }
+            &:nth-child(2) {
+                order: 3;
+                z-index: 2;
+            }
+            &:nth-child(3) {
+                order: 2;
+            }
+            &:nth-child(4) {
+                order: 1;
+            }
+            &__heading {
+                font-size: 17px;
+                margin-bottom: 0;
+                &::before {
+                    display: none;
+                }
+            }
+            &__place {
+                font-family: $acrom;
+                font-size: 9px;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+            &__subheading {
+                display: inline;
+                font-size: 8px;
+                line-height: 13.46px;
+                padding: 0;
+            }
+            &__body {
+                font-size: 8px;
+                line-height: 12px;
+                padding-top: 4px;
+                padding-right: 16px;
+                margin-bottom: 0;
+            }
+        }
+        .list {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            width: 336px;
+            padding-top: 43px;
+            &::after {
+                position: absolute;
+                top: 119px;
+                right: -122px;
+                content: '';
+                display: block;
+                background-image: url('../img/block-3__diagrama.png');
+                background-repeat: no-repeat;
+                width: 244px;
+                height: 110px;
+            }
+        }
+    }
+}
