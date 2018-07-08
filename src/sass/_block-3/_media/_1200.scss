@@ -6,7 +6,7 @@
             width: 1200px;
         }
         &__wrap-title {
-            width: 212px;
+            width: 220px;
         }
         &__title {
             font-size: 27px;
@@ -17,7 +17,7 @@
         }
         &__subtitle {
             font-size: 10px;
-            padding-left: 40px;
+            padding-left: 35px;
             padding-right: 48px;
             &::before {
                 content: '';
@@ -26,33 +26,32 @@
                 width: 28px;
             }
         }
-    }
-    .item {
-        margin-bottom: 0;
-        &__heading {
-            font-size: 18px;
+        .item {
             margin-bottom: 0;
+            &__heading {
+                font-size: 18px;
+                margin-bottom: 0;
+            }
+            &__place {
+                font-size: 8px;
+            }
+            &__body {
+                font-size: 8px;
+                margin-bottom: 0;
+                padding-top: 0;
+            }
         }
-        &__place {
-            font-size: 8px;
-        }
-        &__body{
-            font-size: 8px;
-            margin-bottom: 0;
-            padding-top: 0;
-        }
-    }
-    .list {
-        width: 417px;
-        padding-top: 56px;
-        &::after {
-            content: '';
-            content: "";
-            display: block;
-            top: 129px;
-            right: -39px;
-            width: 251px;
-            height: 110px;
+        .list {
+            width: 417px;
+            padding-top: 56px;
+            &::after {
+                content: '';
+                display: block;
+                top: 155px;
+                right: -39px;
+                width: 251px;
+                height: 110px;
+            }
         }
     }
 }

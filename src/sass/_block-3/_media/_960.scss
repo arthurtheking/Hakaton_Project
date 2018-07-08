@@ -1,7 +1,12 @@
 .block-3 {
     @media #{$tabletLandscape} {
+        &__inner {
+            display: flex;
+            width: 850px;
+            margin: 0 auto;
+        }
         &__wrap-title {
-            width: 353px;
+            width: 341px;
         }
         &__title {
             font-size: 33px;
@@ -13,7 +18,7 @@
         &__subtitle {
             font-size: 11px;
             padding-left: 137px;
-            padding-right: 90px;
+            padding-right: 40px;
             &::before {
                 content: '';
                 display: block;
@@ -23,7 +28,7 @@
             }
         }
         .item {
-            margin-bottom: 26px;
+            margin-bottom: 0;
             &__heading {
                 font-size: 20px;
                 margin-bottom: 7px;
@@ -46,8 +51,8 @@
             &::after{
                 content: "";
                 display: block;
-                top: 155px;
-                right: -174px;
+                top: 185px;
+                right: -100px;
                 width: 338px;
                 background-size: cover;
                 height: 143px;

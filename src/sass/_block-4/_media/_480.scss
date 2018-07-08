@@ -1,0 +1,13 @@
+.block-4 {
+    @media #{$phone} {
+        .wrap-stable-future {
+            &__picture {
+                padding-left: 11px;
+                padding-right: 11px;
+                padding-bottom: 15px;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

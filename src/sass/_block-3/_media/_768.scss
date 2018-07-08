@@ -2,6 +2,8 @@
     @media #{$tabletPortrait} {
         &__inner {
             display: flex;
+            width: 655px;
+            margin: 0 auto;
         }
         &__wrap-title {
             width: 282px;
@@ -18,7 +20,7 @@
             font-size: 9px;
             line-height: 14px;
             padding-left: 110px;
-            padding-right: 50px;
+            padding-right: 30px;
             &::before {
                 content: '';
                 display: block;
@@ -76,12 +78,12 @@
             position: relative;
             display: flex;
             flex-wrap: wrap;
-            width: 336px;
+            width: 343px;
             padding-top: 43px;
             &::after {
                 position: absolute;
-                top: 119px;
-                right: -122px;
+                top: 143px;
+                right: -30px;
                 content: '';
                 display: block;
                 background-image: url('../img/block-3__diagrama.png');
