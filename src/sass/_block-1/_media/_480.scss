@@ -1,0 +1,63 @@
+.block-1 {
+	@media (min-width: 480px) {
+		.header__logo-img {
+			width: 65px;
+			height: 25px;
+		}
+		.block-1__header {
+			margin-bottom: 25px;
+		}
+		.header__logo-link {
+    		height: 100%;
+   			line-height: 70px;
+  		}
+  		.block-1__videoCourse-Title {
+  			width: 245px;
+  			font-size: 30px;
+  			margin-bottom: 35px;
+  		}
+  		.videoCourse-Subtittle__block {
+  			width: 370px;
+  		}
+  		 .block-1__videoCourse-Subtittle--before::before {
+      		height: 9px;
+     	    width: 11px;
+  		    left: -20px;
+   		    top: -1px;
+ 		 }
+ 		 .block-1__videoCourse-Subtittle--after::after {
+      		height: 9px;
+      		width: 11px;
+            bottom: 10px;
+            right: -20px;
+ 	    }
+  		.block-1__videoCourse-Subtittle {
+  			font-size: 13px;
+  			width: 370px;
+  		}
+  		.block-1__titleGoIt {
+  			font-size: 120px;
+  			width: 320px;
+  			margin-bottom: 35px;
+  		}
+  		.block-1__title-block-2 {
+  			width: 375px;
+  			margin-bottom: 30px;
+  		}
+  		.title-block-2__text {
+  			font-size: 13.5px;
+  			margin-bottom: 10px;
+  		}
+  		.title-block-2__text-2 {
+  			font-size: 13.5px;
+  		}
+  		.block-1__button-container {
+  			margin-bottom: 30px;
+  		}
+  		.block-1__button { 
+  			font-size:  12px;
+  			height: 55px;
+  			width: 215px;
+  		}
+	}
+}
