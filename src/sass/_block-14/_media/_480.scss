@@ -1,5 +1,102 @@
-.block-13 {
+.block-14 {
     @media #{$phone} {
-        
+        &__content {
+            margin-bottom: 56px;
+        }
+        .it-specialist-picture {
+            margin-bottom: 45px;
+            width: 250px;
+            &::after {
+                width: 159px;
+                height: 230px;
+                position: absolute;
+                right: -115px;
+                bottom: 60px;
+                font-size: 260px;
+            }
+            &__img {
+                width: 220px;
+                height: 249px;
+                margin-left: 109px;
+            }
+        } 
+        .trainingAtAlexander-subtitle {
+            margin-bottom: 23px;
+            &::before {
+                padding-left: 56px;
+                width: 11px;
+                height: 15px;
+                top: 0;
+                left: 0;
+            }
+            &__text {
+                padding-left: 83px;
+                font-size: 14px;
+                line-height: 19.5px;
+                padding-right: 67px;
+            }
+        }
+        .trainingAtAlexander {
+            &__title {
+                font-size: 18px;
+                line-height: 24px;
+                width: 271px;
+            }
+        }
+        .trainingAtAlexander-paragraph {
+            margin-top: 28px;
+            &::before {
+                border-bottom: 3px solid $mainDarkColor;
+                width: 22px;
+                left: 0;
+                top: 5px;
+                margin-left: 94px;
+            }
+            &__text {
+                width: 248px;
+                font-size: 14px;
+                line-height: 19.5px;
+                padding-left: 132px;
+                padding-right: 100px;
+            }
+        }
+        .block-14-wrapper {
+            &__title {
+                font-size: 14px;
+                line-height: 19.5px;
+                padding-left: 57px;
+                padding-right: 72px;
+                margin-bottom: 33px;
+            }
+        }
+        .list {
+            &__n {
+                padding-left: 30px;
+                margin-left: 80px;
+                width: 300px;
+                font-size: 14px;
+                line-height: 19.5px;
+                margin-bottom: 44px;
+                
+            }
+        }
+        .list-item {
+            &__n {
+                margin-bottom: 29px;
+            }
+        }
+        .list-item__n::before {
+            top: 30px;
+            left: -48px;
+            font-size: 18px;
+            line-height: 20px;
+            padding: 0px 7px 0px 7px;
+        }
+        .list-item__n::after {
+            top: 3px;
+            left: -30px;
+            width: 10px;
+            height: 70px;
+        }
     }
 }

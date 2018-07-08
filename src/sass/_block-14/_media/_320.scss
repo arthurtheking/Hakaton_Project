@@ -1,3 +1,153 @@
-.block-13 {
-    
+.block-14 {
+    &__content {
+        margin-bottom: 38px;
+    }
+    .it-specialist-picture {
+        margin-bottom: 30px;
+        position: relative;
+        width: 170px;
+        &::after {
+            display: block;
+            content: 'it';
+            text-transform: uppercase;
+            transform: rotate(90deg);
+            width: 107px;
+            height: 153px;
+            position: absolute;
+            right: -70px;
+            bottom: 30px;
+            font-size: 170px;
+            font-weight: bold;
+            color: #f7f7f7;
+            z-index: -2;
+            font-family: $acrom;
+        }
+        &__img {
+            width: 147px;
+            height: 166px;
+            margin-left: 72px;
+        }
+    } 
+    .trainingAtAlexander-subtitle {
+        position: relative;
+        margin-bottom: 15px;
+        &::before {
+            content: '/';
+            display: block;
+            padding-left: 37px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        &__text {
+            padding-left: 55px;
+            font-size: 9px;
+            font-weight: bold;
+            line-height: 13px;
+            font-family: $acrom;
+            color: $brandColor;
+            padding-right: 45px;
+        }
+    }
+    .trainingAtAlexander {
+        &__title {
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 16px;
+            text-transform: uppercase;
+            font-family: $acrom;
+            text-align: center;
+            background: $mainDarkColor;
+            color: $mainLightColor;
+            display: block;
+            width: 196px;
+            margin: 0 auto;
+        }
+    }
+    .trainingAtAlexander-paragraph {
+        margin-top: 18px;
+        position: relative;
+        &::before {
+            border-bottom: 2px solid $mainDarkColor;
+            content: "";
+            width: 12px;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 5px;
+            margin-left: 62px;
+        }
+        &__text {
+            width: 166px;
+            font-family: $acrom;
+            font-size: 9px;
+            font-weight: bold;
+            line-height: 13px;
+            padding-left: 88px;
+            padding-right: 66px;
+        }
+    }
+    .block-14-wrapper {
+        &__title {
+            font-size: 9px;
+            font-weight: bold;
+            line-height: 13px;
+            text-transform: uppercase;
+            font-family: $acrom;
+            padding-left: 38px;
+            padding-right: 48px;
+            margin-bottom: 20px;
+        }
+    }
+    .list {
+        &__n {
+            padding-left: 20px;
+            margin-left: 53px;
+            width: 205px;
+            font-size: 9px;
+            line-height: 13px;
+            counter-reset: number;
+            list-style: none;
+            margin-bottom: 35px;
+        }
+    }
+    .list-item {
+        &__n {
+            margin-bottom: 20px;
+            position: relative;
+            border-left: none;
+        }
+    }
+    .list-item__n:last-of-type {
+        margin-bottom: 0px;
+    }
+    .list-item__n::before {
+        counter-increment: number;
+        content: "[ 00" counter(number) " ]";
+        position: absolute;
+        top: 12px;
+        left: -28px;
+        display: inline-block;
+        transform: rotateZ(-90deg);
+        font-size: 8px;
+        line-height: 12px;
+        color: $mainLightColor;
+        background-color: $brandColor;
+        font-weight: 700;
+        padding: 0px 3px 0px 3px;
+    }
+    .list-item__n::after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: 3px;
+        left: -22px;
+        background-color: $mainLightColor;
+        width: 5px;
+        height: 30px;
+    }
+    .list-item__n>h6 {
+        margin-bottom: 10px;
+        font-weight: 900;
+    }
 }
