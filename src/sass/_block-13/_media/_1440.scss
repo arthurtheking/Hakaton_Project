@@ -1,0 +1,49 @@
+.block-13 {
+    @media #{$desktopWide} {
+        padding: 76px 0;
+        &__content {
+            width: 850px;
+        }
+        .introductionProfession {
+            padding-right: 46px;
+            &__title {
+                font-size: 36px;
+                line-height: 45px;
+                margin-bottom: 37px;
+                width: 318px;
+            }
+        }
+        .introductionProfession-paragraph {
+            &::before {
+                width: 40px;
+                top: 6px;
+            }
+            &__text {
+                width: 183px;
+                font-size: 12px;
+                line-height: 18px;
+                padding-left: 55px;
+            }
+        }
+        .introductionProfession-bgd {
+            margin-right: 49px;
+            &__picture {
+                width: 244px;
+                height: 224px;
+            }
+        }
+        .introductionProfession-article {
+            &__title {
+                font-size: 12px;
+                line-height: 19.5px;
+                margin-bottom: 21px;
+                width: 129px;
+            }
+            &__text {
+                width: 155px;
+                font-size: 11px;
+                line-height: 16px;
+            }
+        }
+    }
+}

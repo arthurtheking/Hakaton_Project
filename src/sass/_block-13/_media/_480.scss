@@ -1,0 +1,55 @@
+.block-13 {
+    @media #{$phone} {
+        &__wrapper {
+            padding-right: 125px;
+            padding-left: 125px;
+        }
+        .introductionProfession {
+            margin-bottom: 24px;
+            &__title {
+                font-size: 18px;
+                line-height: 24px;
+                padding-top: 40px;
+                padding-bottom: 21px;
+            }
+        }
+        .introductionProfession-paragraph {
+            &::before {
+                border-bottom: 3px solid $mainDarkColor;
+                content: "";
+                width: 15px;
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 7px;
+            }
+            &__text {
+                width: 206px;
+                font-size: 14px;
+                line-height: 19.5px;
+                padding-left: 23px;
+            }
+        }
+        .introductionProfession-bgd {
+            margin-bottom: 39px;
+            &__picture {
+                width: calc(100% - 34px);
+                height: auto;
+                padding-left: 17px;
+                padding-right: 17px;
+            }
+        }
+        .introductionProfession-article {
+            &__title {
+                font-size: 14px;
+                line-height: 19.5px;
+                margin-bottom: 15px;
+            }
+            &__text {
+                padding-right: 30px;
+                font-size: 14px;
+                line-height: 19.5px;
+            }
+        }
+    }
+}
