@@ -1,0 +1,68 @@
+.block-5 {
+    @media #{$tabletLandscape} {
+        .section {
+            &__inner {
+                padding: 71px 79px 50px 80px;
+            }
+
+            &__title {
+                font-size: 34px;
+                line-height: 42.06px;
+            }
+
+            &__text {
+                font-size: 11px;
+                line-height: 16.82px;
+                text-align: left;
+                padding-right: 20px;
+
+                &::before {
+                    width: 36px;
+                    height: 4px;
+                    top: 32px;
+                }
+            }
+        }
+
+        .review {
+            margin-left: 40px;
+
+            &__text {
+                font-size: 10px;
+                line-height: 16.82px;
+
+                &::after {
+                    height: 45px;
+                    width: 4px;
+                    right: -33px;
+                }
+            }
+
+            &__name {
+                font-size: 10px;
+                line-height: 16.82px;
+            }
+
+            &__img {
+                width: 100px;
+                height: 100px;
+            }
+
+            &__blocks {
+                padding: 36px;
+
+                &::after {
+                    right: 15px;
+                }
+            }
+
+            &__icons {
+                width: 32px;
+            }
+
+            &__sliders {
+                top: 17px;
+            }
+        }
+    }
+}

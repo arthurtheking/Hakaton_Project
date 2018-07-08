@@ -1,0 +1,45 @@
+.block-6 {
+    @media #{$tabletLandscape} {
+        .section {
+            &__iner {
+                padding: 16px 103px 20px 130px;
+            }
+
+            &__image--design {
+                    width: 215px;
+                    height: 515px;
+            }
+
+            &__title {
+                font-size: 32px;
+                line-height: 42.06px;
+            }
+
+            &__text {
+                font-size: 11px;
+                line-height: 16.82px;
+                font-weight: 700;
+
+                &::before {
+                    top: 24px;
+                }
+            }
+
+            &__caption {
+                font-size: 11px;
+                line-height: 18.23px;
+                padding-left: 26px;
+
+                &::before {
+                    top:25px;
+                }
+            }
+
+            &__captionText {
+                font-size: 10px;
+                line-height: 14.72px;
+                padding-left: 26px;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.block-6 {
+    @media #{$desktop} {
+        .section {
+            &__iner {
+                padding: 0;
+                padding-top: 56px;
+                padding-bottom: 40px;
+                width: 710px;
+                margin: 0 auto;
+            }
+
+            &__image {
+                margin-left: 45px;
+            }
+
+            &__text {
+                font-size: 11px;
+                line-height: 16.82px;
+                font-weight: 700;
+            }
+
+            &__image--design {
+                width: 192px;
+                height: 459px;
+            }
+        
+            &__title {
+                font-size: 28px;
+                line-height: 37.5px;
+            }
+
+            &__caption {
+                font-size: 10px;
+                line-height: 16.25px;
+            }
+
+            &__captionText {
+                font-size: 9px;
+                line-height: 13.13px;
+            }
+        }
+    }
+}

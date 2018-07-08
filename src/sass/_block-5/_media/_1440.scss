@@ -1,0 +1,55 @@
+.block-5 {
+    @media #{$desktopWide} {
+        .section {
+            &__inner {
+                width: 855px;
+            }
+
+            &__title {
+                font-size: 35px;
+                line-height: 45px;
+            }
+
+            &__text {
+                font-size: 12px;
+                line-height: 15px;
+
+                &::before {
+                    width: 36px;
+                    height: 4px;
+                    top: 30px;
+                }
+            }
+        }
+
+        .review {
+            &__img {
+                width: 105px;
+                height: 105px;
+            }
+
+            &__text {
+                font-size: 11px;
+                line-height: 18px;
+
+                &::after {
+                    height: 45px;
+                    width: 4px;
+                }
+            }
+
+            &__blocks::after{
+                height: 105%;
+            }
+
+            &__name {
+                font-size: 11px;
+                line-height: 18px;
+            }
+
+            &__sliders{
+                top: 18px;
+            }
+        }   
+    }   
+}
