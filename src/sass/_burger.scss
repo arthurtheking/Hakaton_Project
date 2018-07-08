@@ -21,9 +21,7 @@
     transform: rotate(0deg);
     transition: .3s ease-in-out;
   }
-
 }
-
 .nav_button #burger {
 
   span {
@@ -39,7 +37,6 @@
     &:nth-child(4) {
       top: 16px
     }
-
   }
 
   &.active-sandwich span {
@@ -48,7 +45,6 @@
       width: 0%;
       left: 50%;
       opacity: 0;
-
     }
 
     &:nth-child(2) {
@@ -65,8 +61,5 @@
       left: 50%;
       opacity: 0;
     }
-
   }
-
-
 }
