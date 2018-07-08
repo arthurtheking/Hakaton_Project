@@ -1,0 +1,29 @@
+.block-6 {
+    @media #{$phone} {
+        .section{
+            &__iner{
+                padding: 16px 90px 20px 94px;
+            }
+            &__title{
+                font-size: 18px;
+                line-height: 24px;
+                margin: auto;
+            }
+            &__text{
+                font-size: 14px;
+                line-height: 19.5px;
+            }
+            &__caption{
+                font-size: 13px;
+                padding-top: 18px;
+                &::before{
+                    top: 20px;
+                }
+            }
+            &__captionText{
+                font-size: 13px;
+                padding-top: 12px;
+            }
+        }
+    }
+}

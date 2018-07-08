@@ -1,0 +1,55 @@
+.block-6 {
+    @media #{$tabletPortrait} {
+        .section{
+            &__iner{
+                padding: 56px 63px 50px 64px;
+                display: flex;
+                justify-content: space-between;
+            }
+            &__image{
+                display: block;
+                &--design{
+                    width: 173px;
+                    height: 412px;
+                }
+            }
+            &__title{
+                font-size: 27px;
+                line-height: 33.65px;
+                padding: 0;
+            }
+            &__text{
+                font-size: 9px;
+                line-height: 13.46px;
+                padding-top: 18px;
+                padding-left: 40px;
+                padding-right: 122px;
+                &::before{
+                    width: 29px;
+                    height: 3px;
+                    left: 1px;
+                    top: 22px;
+                }
+            }
+            &__block{
+                margin-left: 155px;
+            }
+            &__caption{
+                font-size: 9px;
+                padding-top: 20px;
+                padding-left: 15px;
+                &::before{
+                    width: 7px;
+                    height: 7px;
+                    top: 22px;
+                }
+            }
+            &__captionText{
+                font-size: 8px;
+                padding-top: 9px;
+                line-height: 11.78px;
+                padding-left: 15px;
+            }
+        }
+    }
+}

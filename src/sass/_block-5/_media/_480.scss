@@ -1,0 +1,58 @@
+.block-5 {
+    @media #{$phone} {
+        
+        .section{
+            &__inner{
+                padding: 16px 90px 20px 94px;
+            }
+            &__title{
+                width: 198px;
+                font-size: 18px;
+                line-height: 24px;
+            }
+            &__text{
+                font-size: 15px;
+                line-height: 19.5px;
+            }
+        }
+        .review{
+            &__blocks{
+                padding: 21px;
+                &::after{
+                    height: 105%;
+                }
+            }
+            &__text{
+                font-size: 6px;
+                line-height: 9.37px;
+                &::after{
+                        right: -20px;
+                }
+            }
+            &__name{
+                font-size: 5px;
+               
+            }
+            &__img{
+                width: 55px;
+                height: 55px;
+            }
+            &__sliders--style{
+                font-size: 5px;
+                padding-top: 4px;
+            }
+            &__sliders--styleTwo{
+                font-size: 6px;
+                &::before{
+                    width: 5px;
+                    bottom: 2px;
+                    left: 5px;
+                }
+            }
+            &__icons{
+                left: 280px;
+            }
+        }
+    }
+    
+}
