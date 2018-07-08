@@ -1,0 +1,55 @@
+.block-1 {
+	@media (min-width: 1440px) {
+		.block-1__pos-reletive {	
+  			width: 860px;
+  		}
+  		.block-1__videoCourse-Title-forDecktop {
+			font-size: 60px;
+			width: 470px;
+			margin-bottom: 35px;
+  		}
+  		.block-1__titleGoIt {
+  			width: 865px;
+  			font-size: 315px;
+  		}
+  		.block-1__videoCourse-Subtittle {
+  			width: 230px;
+  			font-size: 10.5px;
+  		}
+  		.block-1__videoCourse-Subtittle--before::before {
+  			font-size: 22px;
+  		    left: -35px;
+   		    top: -11px;
+ 		 }
+ 		 .block-1__videoCourse-Subtittle--after::after {
+  			font-size: 22px;
+            bottom: 3px;
+            right: -105px;
+ 	    }
+  		.title-block-2__text {
+  			font-size: 13.5px;
+  		}
+  		.block-1__title-block-2 {
+  			width: 195px;
+  		}
+  		.title-block-2__text-2 {
+  			font-size: 12px;
+  		}
+  		.block-1__button-container {
+  			margin-left: 60px;
+  		}
+  		.block-1__button {
+  			width: 150px;
+  			height: 40px;
+  			font-size: 10px;
+  		}
+  		.videoCourse-Subtittle__block {
+  			margin-left: 60px;
+  		}
+  		.block-1__pacuku_bloch-img {
+  			width: 560px;
+  			height: 510px;
+  			top: -18px;
+  		}
+	}
+}

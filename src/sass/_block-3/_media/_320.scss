@@ -1,17 +1,20 @@
 .block-3 {
-    // &__inner {
-    // }
+    &__wrap-title {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     &__title {
         font-family: $acrom;
         font-size: 12px;
         font-weight: 700;
         line-height: 16px;
         text-transform: uppercase;
+        text-align: center;
         padding-top: 23px;
-        padding-left: 85px;
-        padding-right: 85px;
         margin-bottom: 23px;
     }
+
     &__subtitle {
         position: relative;
         font-family: Acrom;
@@ -21,6 +24,7 @@
         padding-left: 88px;
         padding-right: 67px;
         margin-bottom: 24px;
+
         &::before {
             content: '';
             display: block;
@@ -30,18 +34,60 @@
             top: 6px;
             left: 64px;
         }
-    } // .list {
-    //  }
+    } 
+
+    .list {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .item {
-        padding-left: 41px;
+        padding-left: 25px;
+        margin-bottom: 10px;
+
         &__heading {
+            position: relative;
             font-family: $acrom;
             font-size: 15px;
-            font-weight: 400;
+            font-weight: 700;
             line-height: 19.14px;
-        } //  &__subheading {
-        //  }
-        //  &__body {
-        //  }
+
+            &::before {
+                content: '';
+                display: block;
+                width: 8px;
+                height: 7px;
+                background-color: $brandColor;
+                position: absolute;
+                left: -18px;
+                top: 8px;
+            }
+        }
+
+        &__place {
+            font-family: $acrom;
+            font-size: 9px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        &__subheading {
+            display: inline-block;
+            font-family: $acrom;
+            font-size: 9px;
+            font-weight: 700;
+            line-height: 13px;
+            background-color: $lightAccentColor;
+            margin-bottom: 11px;
+        }
+
+        &__body {
+            font-family: $acrom;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 13px;
+            padding-right: 9px;
+            margin-bottom: 18px;
+        }
     }
 }

@@ -1,0 +1,73 @@
+.block-3 {
+    @media #{$tabletLandscape} {
+        &__inner {
+            display: flex;
+            width: 850px;
+            margin: 0 auto;
+        }
+
+        &__wrap-title {
+            width: 341px;
+        }
+
+        &__title {
+            font-size: 33px;
+            line-height: 40px;
+            padding-left: 80px;
+            padding-top: 68px;
+            margin-bottom: 23px;
+        }
+
+        &__subtitle {
+            font-size: 11px;
+            padding-left: 137px;
+            padding-right: 40px;
+
+            &::before {
+                content: '';
+                display: block;
+                top: 2px;
+                left: 80px;
+                width: 35px;
+            }
+        }
+
+        .item {
+            margin-bottom: 0;
+
+            &__heading {
+                font-size: 20px;
+                margin-bottom: 7px;
+            }
+
+            &__place {
+                font-size: 12px;
+            }
+
+            &__subheading {
+                font-size: 10px;
+            }
+
+            &__body {
+                font-size: 10px;
+                padding-top: 12px;
+                line-height: 14px;
+            }
+        }
+
+        .list {
+            width: 410px;
+            padding-top: 70px;
+            
+            &::after{
+                content: "";
+                display: block;
+                top: 185px;
+                right: -100px;
+                width: 338px;
+                background-size: cover;
+                height: 143px;
+            }
+        }
+    }
+}
