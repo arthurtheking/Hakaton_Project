@@ -1,0 +1,111 @@
+.block-16 {
+    @media screen and (min-width: 480px) {
+        .block-16-upper-part-whatis {
+            
+            &__title {
+                font-size: 18px;
+            }
+            &__text {
+                font-size: 15px;
+                width: 227px;
+                font-weight: 400;
+                &::before {
+                    content: "";
+                    display: block;
+                    width: 20px;
+                    border-bottom: 3px solid #000;
+                    position: absolute;
+                    top: 6px;
+                    left: -25px;
+                }
+                
+            }
+        }
+        .block-16-upper-part__img {
+    
+            .small {
+                width: 440px;
+            }
+        }
+        .block-16-middle-part {
+            margin: 0 auto;
+            width: 360px;
+
+            .block-16-middle-part-info {
+                font-size: 13px;
+                
+                &__item {
+                margin: 15px 0px;
+                width: 293px;
+                line-height: 17px;
+                }
+                &__itemblack {
+                    width: 158px;
+                    position: relative;
+                    &::before {
+                        content: "";
+                        display: block;
+                        width: 158px;
+                        border-bottom: 2px solid #fff;
+                        position: absolute;
+                        top: 14px;
+                        left: 0;
+                    }
+                }
+            }
+        }
+        .block-16-lower-part {
+
+            &__title {
+                width: 344px;
+                font-size: 13px;
+            }
+        }
+    }
+    .list {
+        width: 250px;
+
+        .item   {
+            padding: 10px 0;
+
+            &__heading {
+                font-size: 13px;
+            }
+            &__caption {
+                font-size: 13px;
+            }
+        }
+        .counter {
+            top: 20px;
+        }
+        .counter2 {
+            top: 123px;
+        }
+        .counter3 {
+            top: 238px;
+        }
+        .counter4 {
+            top: 353px;
+        }
+        .counter5 {
+            top: 453px;
+        }
+    }
+    .block-16-lower-part-price {
+        justify-content: space-evenly;
+
+        .price__blue{
+            font-size: 13px;
+            width: 130px;
+            &::before {
+                content: "";
+                display: block;
+                width: 130px;
+                border-bottom: 4px solid #fff;
+                position: absolute;
+                top: 18px;
+                left: 0;
+            }
+        }
+    }
+}

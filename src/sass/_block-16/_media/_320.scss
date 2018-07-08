@@ -43,7 +43,7 @@
         }
     }
     .block-16-middle-part {
-        
+        margin: 0 auto;
         width: 290px;
         .block-16-middle-part-info {
             font-family: $acrom;
@@ -209,7 +209,6 @@
                     position: absolute;
                     top: 18px;
                     left: 0;
-
                 }
             }
             .price__true {
