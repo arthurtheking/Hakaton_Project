@@ -1,0 +1,37 @@
+.block-4 {
+    @media #{$tabletPortrait} {
+        &__inner{
+            display: flex;
+            width: 550px;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
+        &__from-foto{
+            width: 350px;
+        }
+        .wrap-stable-future {
+            &__picture {
+                padding-left: 11px;
+                padding-right: 11px;
+                padding-bottom: 15px;
+                width: 300px;
+            }
+        }
+        .future {
+            display: flex;
+            flex-basis: 350px;
+            &__income {
+                margin-left: 10px;
+                margin-right: 0;
+            }
+        }
+        .help{
+            &__caption{
+
+            }
+        }
+        .furure-income-wrap{
+            width: 400px;
+        }
+    }
+}

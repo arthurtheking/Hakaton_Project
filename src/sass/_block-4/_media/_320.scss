@@ -1,0 +1,46 @@
+.block-4 {
+    .wrap-stable-future {
+        &__picture {
+            padding-left: 11px;
+            padding-right: 11px;
+            padding-bottom: 15px;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .future {
+        &__income {
+            display: inline-block;
+            font-family: $acrom;
+            font-size: 12px;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: $mainLightColor;
+            background-color: $darkShadeColor;
+            margin-left: 78px;
+            margin-right: 78px;
+            margin-bottom: 15px;
+        }
+    }
+    .future-income-wrap__income-take {
+        font-family: $acrom;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 16px;
+        color: $darkShadeColor;
+        text-transform: uppercase;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+    .future-income-wrap__income-text {
+        font-family: $acrom;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 13px;
+        padding-left: 15px;
+        padding-right: 15px;
+        &--light-color{
+            background-color: $lightAccentColor;
+        }
+    }
+}

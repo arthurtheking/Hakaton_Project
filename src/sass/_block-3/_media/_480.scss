@@ -1,0 +1,72 @@
+.block-3 {
+    @media #{$phone} {
+        &__title {
+            font-size: 18px;
+            line-height: 16px;
+            padding-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        &__subtitle {
+            font-size: 14px;
+            line-height: 19.5px;
+            padding-left: 132px;
+            padding-right: 67px;
+            margin-bottom: 41px;
+
+            &::before {
+                content: '';
+                display: block;
+                border-top: 2px solid $mainDarkColor;
+                width: 20px; 
+                top: 8px;
+                left: 94px;
+            }
+        }
+
+        .item {
+            padding-left: 58px;
+            margin-bottom: 17px;
+
+            &__heading {
+                font-size: 23px;
+                margin-bottom: 7px;
+
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 10px;
+                    height: 9px;
+                    background-color: $brandColor;
+                    position: absolute;
+                    left: -24px;
+                    top: 8px;
+                }
+            }
+
+            &__place {
+                font-family: $acrom;
+                font-size: 13px;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+
+            &__subheading {
+                display: inline-block;
+                font-family: $acrom;
+                font-size: 13.6px;
+                line-height: 13px;
+                padding-top: 4px;
+                padding-right: 3px;
+                padding-bottom: 5px;
+                margin-bottom: 14px;
+            }
+
+            &__body {
+                font-size: 14px;
+                line-height: 18px;
+                margin-bottom: 27px;
+            }
+        }
+    }
+}
