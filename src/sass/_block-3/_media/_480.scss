@@ -1,19 +1,19 @@
 .block-3 {
     @media #{$phone} {
-        // &__inner {
-        // }
         &__title {
             font-size: 18px;
             line-height: 16px;
             padding-top: 40px;
             margin-bottom: 40px;
         }
+
         &__subtitle {
             font-size: 14px;
             line-height: 19.5px;
             padding-left: 132px;
             padding-right: 67px;
             margin-bottom: 41px;
+
             &::before {
                 content: '';
                 display: block;
@@ -22,11 +22,12 @@
                 top: 8px;
                 left: 94px;
             }
-        } // .list {
-        //  }
+        }
+
         .item {
             padding-left: 58px;
             margin-bottom: 17px;
+
             &__heading {
                 font-size: 23px;
                 margin-bottom: 7px;
@@ -42,12 +43,14 @@
                     top: 8px;
                 }
             }
+
             &__place {
                 font-family: $acrom;
                 font-size: 13px;
                 font-weight: 900;
                 text-transform: uppercase;
             }
+
             &__subheading {
                 display: inline-block;
                 font-family: $acrom;
@@ -60,6 +63,7 @@
                 padding-bottom: 5px;
                 margin-bottom: 14px;
             }
+            
             &__body {
                 font-size: 14px;
                 line-height: 18px;

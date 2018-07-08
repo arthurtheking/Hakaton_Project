@@ -5,9 +5,11 @@
             width: 850px;
             margin: 0 auto;
         }
+
         &__wrap-title {
             width: 341px;
         }
+
         &__title {
             font-size: 33px;
             line-height: 40px;
@@ -15,10 +17,12 @@
             padding-top: 68px;
             margin-bottom: 23px;
         }
+
         &__subtitle {
             font-size: 11px;
             padding-left: 137px;
             padding-right: 40px;
+
             &::before {
                 content: '';
                 display: block;
@@ -27,27 +31,34 @@
                 width: 35px;
             }
         }
+
         .item {
             margin-bottom: 0;
+
             &__heading {
                 font-size: 20px;
                 margin-bottom: 7px;
             }
+
             &__place {
                 font-size: 12px;
             }
+
             &__subheading {
                 font-size: 10px;
             }
+
             &__body {
                 font-size: 10px;
                 padding-top: 12px;
                 line-height: 14px;
             }
         }
+
         .list {
             width: 410px;
             padding-top: 70px;
+            
             &::after{
                 content: "";
                 display: block;

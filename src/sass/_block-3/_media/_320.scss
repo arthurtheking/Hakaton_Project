@@ -1,10 +1,9 @@
 .block-3 {
-    // &__inner {
-    // }
     &__wrap-title {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     &__title {
         font-family: $acrom;
         font-size: 12px;
@@ -15,6 +14,7 @@
         padding-top: 23px;
         margin-bottom: 23px;
     }
+
     &__subtitle {
         position: relative;
         font-family: Acrom;
@@ -24,6 +24,7 @@
         padding-left: 88px;
         padding-right: 67px;
         margin-bottom: 24px;
+
         &::before {
             content: '';
             display: block;
@@ -34,19 +35,23 @@
             left: 64px;
         }
     } 
+
     .list {
         padding-left: 15px;
         padding-right: 15px;
-     }
+    }
+
     .item {
         padding-left: 25px;
         margin-bottom: 10px;
+
         &__heading {
             position: relative;
             font-family: $acrom;
             font-size: 15px;
             font-weight: 400;
             line-height: 19.14px;
+
             &::before {
                 content: '';
                 display: block;
@@ -58,12 +63,14 @@
                 top: 8px;
             }
         }
+
         &__place {
             font-family: $acrom;
             font-size: 9px;
             font-weight: 900;
             text-transform: uppercase;
         }
+
         &__subheading {
             display: inline-block;
             font-family: $acrom;
@@ -73,6 +80,7 @@
             background-color: $lightAccentColor;
             margin-bottom: 11px;
         }
+        
         &__body {
             font-family: $acrom;
             font-size: 10px;
