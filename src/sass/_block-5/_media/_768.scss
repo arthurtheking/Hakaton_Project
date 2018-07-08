@@ -1,26 +1,28 @@
 .block-5 {
     @media #{$tabletPortrait} {
-       
-        .section{
-            &__inner{
+        .section {
+            &__inner {
                 padding: 56px 63px 50px 64px;
                 display: flex;
                 justify-content: space-between;
             }
-            &__title{
+
+            &__title {
                 margin: 0;
                 padding: 0;
                 font-size: 27px;
                 line-height: 33.65px;
             }
-            &__text{
+
+            &__text {
                 font-size: 9px;
                 font-weight: 500;
                 line-height: 13.46px;
                 padding-right: 50px;
                 padding-left: 50px;
                 text-align: left;
-                &::before{
+
+                &::before {
                     width: 29px;
                     height: 3px;
                     top: 30px;
@@ -28,49 +30,62 @@
             }
             
         }
-        .review{
+
+        .review {
             margin: 0;
             margin-left: 35px;
-            &__text{
+
+            &__text {
                 font-size: 9px;
                 line-height: 13.46px;
-                &::after{
+
+                &::after {
                     height: 38px;
                     right: -18px;
                 }
             }
-            &__blocks::after{
+
+            &__blocks::after {
                 right: 13px;
             }
-            &__name{
+
+            &__name {
                 font-size: 8px;
                 line-height: 13.46px;
             }
-            &__img{
+
+            &__img {
                 width: 80px;
                 height: 80px;
             }
-            &__block--two{
+
+            &__block--two {
                 padding-left: 26px;
             }
-            &__sliders{
+
+            &__sliders {
                 top: 14px;
             }
-            &__sliders--style{
+
+            &__sliders--style {
                 font-size: 6px;
             }
-            &__sliders--styleTwo{
+
+            &__sliders--styleTwo {
                 font-size: 10px;
-                &::before{
+
+                &::before {
                     width: 10px;
                     bottom: 3px;
                     left: 9px;
                 }
             }
-            &__icon{
+
+            &__icon {
                 padding: 3px;
             }
-            &__icons{
+
+            &__icons {
                 width: 27px;
             }
         }

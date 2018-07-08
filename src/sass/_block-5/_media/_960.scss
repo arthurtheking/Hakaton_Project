@@ -1,56 +1,66 @@
 .block-5 {
-   
     @media #{$tabletLandscape} {
-        
-        .section{
-            &__inner{
+        .section {
+            &__inner {
                 padding: 71px 79px 50px 80px;
             }
-            &__title{
+
+            &__title {
                 font-size: 34px;
                 line-height: 42.06px;
             }
-            &__text{
+
+            &__text {
                 font-size: 11px;
                 line-height: 16.82px;
                 text-align: left;
                 padding-right: 20px;
-                &::before{
+
+                &::before {
                     width: 36px;
                     height: 4px;
                     top: 32px;
                 }
             }
         }
-        .review{
+
+        .review {
             margin-left: 40px;
-            &__text{
+
+            &__text {
                 font-size: 10px;
                 line-height: 16.82px;
-                &::after{
+
+                &::after {
                     height: 45px;
                     width: 4px;
                     right: -33px;
                 }
             }
-            &__name{
+
+            &__name {
                 font-size: 10px;
                 line-height: 16.82px;
             }
-            &__img{
+
+            &__img {
                 width: 100px;
                 height: 100px;
             }
-            &__blocks{
+
+            &__blocks {
                 padding: 36px;
-                &::after{
+
+                &::after {
                     right: 15px;
                 }
             }
-            &__icons{
+
+            &__icons {
                 width: 32px;
             }
-            &__sliders{
+
+            &__sliders {
                 top: 17px;
             }
         }

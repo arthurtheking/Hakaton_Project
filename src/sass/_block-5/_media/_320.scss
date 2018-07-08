@@ -1,15 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.block-5{   
-    
-    .section{
-        &__inner{
+.block-5 {   
+    .section {
+        &__inner {
             padding: 11px 60px 40px 62px;
         }
-        margin: auto;
-        &__title{
+
+        &__title {
             margin: auto;
             padding-left: 40px;
             padding-right: 18px;
@@ -17,47 +12,53 @@
             font-family: $acrom;
             font-size: 12px;
             line-height: 16px;
-            font-weight: bold;
+            font-weight: 900;
             text-transform: uppercase;
         }
-        &__text{
+
+        &__text {
             text-align: justify;
             position: relative;
             padding-top: 26px;
             padding-left: 25px;
             font-family: $acrom;
             font-size: 9px;
-            font-weight: 500;
+            font-weight: 700;
             line-height: 13px;
             letter-spacing: -0.35px;
+
+            &::before {
+                content: '';
+                display: inline-block;
+                vertical-align: top;
+                box-sizing: border-box;
+                position: absolute;
+                left: 0;
+                top: 33px;
+                width: 14px;
+                height: 2px;
+                background-color: $mainDarkColor;
+            }
         }
-        &__text::before{
-            content: '';
-            display: inline-block;
-            vertical-align: top;
-            box-sizing: border-box;
-            position: absolute;
-            left: 0;
-            top: 33px;
-            width: 14px;
-            height: 2px;
-            background-color: $mainDarkColor;
-        }
-        &__text-design{
+
+        &__text-design {
             color: $mainLightColor;
             background: $mainDarkColor;
         }
     }
-    .review{
+    
+    .review {
         margin: auto;
         margin-top: 25px;
         box-shadow: 0 5px 9px rgba(0, 0, 0, 0.15);
         background-color: $mainLightColor;
+
         &__blocks{
             display: flex;
             padding: 13px;
             padding-bottom: 0;
             position: relative;
+
             &::after{
                 display: inline-block;
                 content: "";
@@ -69,19 +70,22 @@
                 top: 0;
             }
         }
-        &__img{
+
+        &__img {
             display: block;
             width: 30px;
             height: 30px;
         }
-        &__text{
+
+        &__text {
             color: $mainDarkColor;
             font-family: $acrom;
             font-size: 4px;
             line-height: 6.25px;
-            font-weight: 400;
+            font-weight: 700;
             position: relative;
-            &::after{
+
+            &::after {
                 display: inline-block;
                 content: "";
                 width: 2px;
@@ -93,11 +97,13 @@
                 z-index: 1;
             }
         }
-        &__block--two{
+
+        &__block--two {
             padding-left: 10px;
             padding-right: 10px;
         }
-        &__name{
+
+        &__name {
             width: 38px;
             height: 9px;
             font-family: $acrom;
@@ -107,13 +113,15 @@
             line-height: 6.25px;
             text-transform: uppercase;
         }
-        &__sliders{
+
+        &__sliders {
             margin: auto;
             display: flex;
             justify-content: space-between;
             position: relative;
             top: 10px;
-            &--style{
+
+            &--style {
                 height: 4px;
                 font-weight: 700;
                 line-height: 6.77px;
@@ -122,9 +130,11 @@
                 padding-top: 2px;
                 padding-left: 10px;
             }
-            &--styleTwo{
+
+            &--styleTwo {
                 font-size: 3px;
-                &::before{
+
+                &::before {
                     display: inline-block;
                     content: "";
                     width: 2px;
@@ -133,29 +143,31 @@
                     position: relative;
                     bottom: 1px;
                     left: 2px;
-
                 }
             }
-          
         }
-        &__icons{
+
+        &__icons {
             display: flex;
-        justify-content: space-between;
-        width: 20px;
-        height: 100%;
+            justify-content: space-between;
+            width: 20px;
+            height: 100%;
         }
-        &__icon{
-            background: black;
+
+        &__icon {
+            background: $mainDarkColor;
             display: block;
             padding: 2px;
             margin-left: -1px;
+
             svg {
                 display: block;
-                fill: #ffffff;
+                fill: $mainLightColor;
                 width: 100%;
                 height: 100%;
                 
-            }
+            }   
+
             &:first-child {
                 border-right: 1px solid $lightShadeColor;
                 margin-right: 1px;

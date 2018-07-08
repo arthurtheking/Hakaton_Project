@@ -1,19 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.block-6{
-    .section{
-        &__iner{
+.block-6 {
+    .section{ 
+        &__iner {
             padding: 11px 57px 40px 60px;
         }
-        &__image{
+
+        &__image {
             display: none;
             height: 430px;
             width: 260px;
             position: relative;
-            &::after{
-                content: url(../img/hard.jpg);
+
+            &::after {
+                content: url(../img/hardAZ.png);
                 width: 30px;
                 height: 100px;
                 position: absolute;
@@ -23,24 +21,27 @@
                 opacity: 0.6;
             }
         }
-        &__title{
+
+        &__title {
             padding: 0px 30px 2px 38px;
             color: $mainDarkColor;
             font-family: $acrom;
             font-size: 12px;
             line-height: 16px;
             text-transform: uppercase;
-            font-weight: 700;
+            font-weight: 900;
         }
-        &__text{
+
+        &__text {
             padding: 16px 23px 26px 38px;
             color: $mainDarkColor;
             font-family: $acrom;
             font-size: 9px;
-            font-weight: 500;
+            font-weight: 700;
             line-height: 13px;
             position: relative;
-            &::before{
+
+            &::before {
                 content: '';
                 display: inline-block;
                 vertical-align: top;
@@ -53,19 +54,18 @@
                 background-color: $mainDarkColor;
             }
         }
-        &__caption{
+
+        &__caption {
             color: $mainDarkColor;
             padding-top: 10px;
             font-family: $acrom;
             font-size: 9px;
-            font-weight: 700;
+            font-weight: 900;
             line-height: 13.67px;
             text-transform: uppercase;
             position: relative;
-            &:first-child{
-                padding-top: 0;
-            }
-            &::before{
+
+            &::before {
                 display: inline-block;
                 content: "";
                 height: 4px;
@@ -73,10 +73,11 @@
                 background: $mainDarkColor;
                 position: absolute;
                 left: -10px;
-                top: 12px;
+                top: 14px;
             }
-        }
-        &__captionText{
+        } 
+
+        &__captionText {
             color: $darkAccentColor;
             padding-top: 5px;
             font-family: $acrom;
@@ -84,6 +85,5 @@
             font-weight: 400;
             line-height: 13.67px;
         }
-
     }
 }
